@@ -31,7 +31,7 @@ account:
   message: "Welcome to Coffee App"
   details:
     name: "Bob"
-    email: "test.fr"
+    email: "f4ba5ce80a5026d3445c6ae2d0a708d649039956f1134a6ed719553e26d9c5cb"
   phone:
   - 0505050505
   - 0606060606
