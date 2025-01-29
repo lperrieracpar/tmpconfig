@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: coffeemachine
+
+
+greeting:
+  name: Dakota
+  coffee: ${greeting.name} is drinking Cafe Cereza
+logging:
+  level:
+    org:
+      formation:
+        controller:
+          CoffeeController: error
+acount:
+  message: "Welcome to Coffee App"
+  details:
+    name: "Bob"
+    email: "test.fr"
+  phone:
+  - 0505050505
+  - 0606060606
+build:
+  version: "3.0"

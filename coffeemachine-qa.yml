@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: coffeemachine
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+greeting:
+  name: Dakota
+  coffee: ${greeting.name} is drinking Cafe Cereza
+logging:
+  level:
+    org:
+      formation:
+        controller:
+          CoffeeController: error
+account:
+  message: "Welcome to Coffee App"
+  details:
+    name: "Bob"
+    email: "test.fr"
+  phone:
+  - 0505050505
+  - 0606060606
+build:
+  version: "2.0"
